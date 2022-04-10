@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Picture</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/styleprofile.css"/>
+	<script src="../javascript/profilescript.js"></script>
+
+</head>
+<body>
+
+	<div class="header">
+		<div class="wrapper">			
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="wrapper">
+
+		<div class="signup">
+			<form action="../login/home.html">
+
+				<table id="signuptable">
+					
+					<tr>
+						<td style="padding-bottom:0px;"><img src="../images/profile/upload.png" id="load1" style="width:220px; height:230px;"/>
+						</td>
+
+					</tr>		
+
+					<tr>
+						<td align="middle"> <input type="button" class="uploadButton" id="browser" value="Зураг оруулах" />
+				 <input type="file" id="myFile" name="pic" accept="image/*" onchange="loadFile(event)" onmouseover="onbuttoncolor()" onmouseout="outbuttoncolor()"></td>
+					</tr>
+
+
+					<tr id="nextbut">
+						<td><input id="nextbttn" type="submit" value="Дуусгах" /></td>
+					</tr>
+
+				</table>
+			</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
